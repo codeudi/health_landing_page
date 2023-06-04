@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+}
+.section1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:35px;
+    margin-left: 70px;
+    margin-right: 125px;
+}
+.list{
+    display: flex;
+    gap:55px;
+}
+.heading{
+    font-size: 68px;
+    width:45%;
+    line-height: 90px;
+}
+.content{
+    font-size: 19px;
+    color:grey;
+    font-weight: 300;
+    width:50%;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.half2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:52%;
+}
+.make{
+    padding:17px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#20bc7e ;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.images{
+    display: flex;
+    gap:24px;
+}
+.mouse{
+    position: relative;
+    top:33px;
+}
+.green{
+    position: absolute;
+    height:495px;
+    width:500px;
+    top:250px
+}
+.doctor{
+    position:absolute;
+    top:81px;
+    width:515px;
+    height:710px;
+}
+.yellow{
+    position: absolute;
+    top:308px;
+    height:415px;
+    width:425px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+.left{
+    width: fit-content;
+    margin-left: 75px;
+    margin-top: 150px;
+}
+.stetho{
+    position: absolute;
+    height:75%;
+    width:40%;
+    top:180px;
+    left:330px;
+}

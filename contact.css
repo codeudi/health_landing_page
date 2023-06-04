@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+}
+.section1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:35px;
+    margin-left: 70px;
+    margin-right: 125px;
+}
+.list{
+    display: flex;
+    gap:55px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    margin-left: 40%;
+    width:350px;
+    height:440px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin-top: 155px;
+    margin-left:535px;
+}
+.con{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+form{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.submit{
+    margin-left: 20px;
+    width:310px;
+    padding:10px;
+    font-size: 18px;
+    color: white;
+    background-color: #20BC7E;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+input{
+    height:27px;
+    width:310px;
+    padding-left: 8px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.message textarea{
+    margin-bottom: 15px;
+    height:100px;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    width:310px;
+    resize: none;
+}
+.bord{
+    position: relative;
+    top:23px;
+}
